@@ -10,6 +10,10 @@ To get started run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Running tests
+
+Run `yarn test`
+
 ## Notes
 
 src/graphql/generated contains generated types based on the graphql schema located at https://countries.trevorblades.com
