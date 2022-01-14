@@ -12,8 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Notes
 
-src/graphql/generated contains generated types based on the graphql schemes located at https://countries.trevorblades.com
-anytime you add a new query or mutation, run `yarn codegen` and the types for that fetches return data and variables will be auto-generated.
+src/graphql/generated contains generated types based on the graphql schema located at https://countries.trevorblades.com
+anytime you add or modify a new query or mutation, run `yarn codegen` and the types for that fetch (return data and variables) will be auto-generated.
 
 ## With more time
 
