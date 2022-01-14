@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "3.2.5",
+    "@apollo/client": "^3.5.7",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.2.7",
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "codegen": "yarn run apollo client:codegen --target typescript --endpoint=https://countries.trevorblades.com --outputFlat --includes  \"src/**\"   src/graphql/generated --globalTypesFile globalTypes.d.ts"
+    "codegen": "yarn run apollo client:codegen --target typescript --endpoint=https://countries.trevorblades.com --outputFlat --includes  \"src/**\"   src/graphql/generated --globalTypesFile globalTypes.d.ts --no-addTypename"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/graphql": "^14.5.0",
     "apollo": "2.32.1"
   },
   "resolutions": {

@@ -7,6 +7,7 @@ interface IPaginationProps {
   onChange: (pageNumber: number) => void;
 }
 
+// Pagination component responsible for displaying number of pages and changing the current page on user interaction
 export default function Pagination(props: IPaginationProps) {
   const { totalItems, itemsPerPage, currentPage, onChange } = props;
 
